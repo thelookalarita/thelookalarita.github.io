@@ -12,6 +12,7 @@ html {
   position: relative;
   width: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background: #fca9a9a6;
   background: -moz-linear-gradient(top, #fca9a9a6);
   background: -webkit-linear-gradient(top, #fca9a9a6);
@@ -22,6 +23,12 @@ html {
   background: -webkit-linear-gradient(top, #fca9a96a);
   background: linear-gradient(to bottom, #fca9a96a);
 >>>>>>> parent of 2f6170b (Merge branch 'main' of https://github.com/thelookalarita/thelookalarita.github.io)
+=======
+  background: #ffe6ff;
+  background: -moz-linear-gradient(top, #ffe6ff);
+  background: -webkit-linear-gradient(top, #ffe6ff);
+  background: linear-gradient(to bottom, #ffe6ff);
+>>>>>>> parent of 38fe7f1 (official launch)
 }
 
 @media (min-width: 900px) {
@@ -101,7 +108,7 @@ html {
 }
 
 .pricing-features {
-  color: #fca9a9;
+  color: hsl(308, 91%, 43%);
   font-weight: 600;
   letter-spacing: 1px;
   padding-left: 10px;

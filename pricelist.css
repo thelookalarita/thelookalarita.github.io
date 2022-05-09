@@ -1,0 +1,380 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 743px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 557px;
+  min-height: 519px;
+  margin: 166px 0 0 auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  margin: 0 30px 0 13px;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  letter-spacing: 9px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  margin: 0 30px 0 13px;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 1.25rem;
+  font-style: italic;
+  margin: 30px 30px 0 13px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  border-style: none;
+  font-weight: 400;
+  margin: 40px auto 0 13px;
+  padding: 10px 52px 10px 51px;
+}
+
+.u-section-1 .u-list-1 {
+  width: 583px;
+  margin: -636px auto 49px 0;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-template-columns: repeat(1, 100%);
+  min-height: 645px;
+  grid-gap: 0px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 10px 30px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 178px;
+  height: 195px;
+  object-position: 50% 35.59%;
+  margin: 0 auto 0 0;
+}
+
+.u-section-1 .u-text-4 {
+  margin: -171px 0 0 205px;
+}
+
+.u-section-1 .u-text-5 {
+  font-style: italic;
+  margin: 20px 0 0 205px;
+}
+
+
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 748px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 357px;
+    min-height: 643px;
+    margin-top: 49px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+    width: auto;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-right: 0;
+    font-size: 1.25rem;
+  }
+
+  .u-section-1 .u-list-1 {
+    height: auto;
+    margin-top: -638px;
+  }
+
+  .u-section-1 .u-text-6 {
+    width: auto;
+    margin-right: 220px;
+  }
+
+  .u-section-1 .u-text-9 {
+    width: auto;
+    margin-right: 220px;
+  }
+
+  .u-section-1 .u-text-12 {
+    width: auto;
+    margin-right: 220px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1215px;
+  }
+
+  .u-section-1 .u-group-1 {
+    min-height: 365px;
+    margin-top: 60px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-list-1 {
+    margin-top: -1068px;
+    margin-bottom: -220px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-group-1 {
+    margin-top: 20px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 540px;
+    margin-top: 20px;
+    margin-bottom: 49px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-left: 202px;
+  }
+
+  .u-section-1 .u-text-5 {
+    margin-left: 202px;
+  }
+
+  .u-section-1 .u-text-6 {
+    margin-right: 219px;
+    margin-left: 204px;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-7 {
+    margin-left: 204px;
+  }
+
+  .u-section-1 .u-text-8 {
+    margin-left: 204px;
+  }
+
+  .u-section-1 .u-text-9 {
+    margin-right: 219px;
+    margin-left: 204px;
+  }
+
+  .u-section-1 .u-container-layout-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-10 {
+    margin-left: 204px;
+  }
+
+  .u-section-1 .u-text-11 {
+    margin-left: 204px;
+  }
+
+  .u-section-1 .u-text-12 {
+    margin-right: 219px;
+    margin-left: 204px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-group-1 {
+    min-height: 402px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+    margin-right: 2px;
+    margin-left: -2px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 340px;
+    margin-bottom: 60px;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: auto;
+    margin-left: 190px;
+  }
+
+  .u-section-1 .u-text-5 {
+    width: auto;
+    margin-left: 190px;
+  }
+
+  .u-section-1 .u-text-6 {
+    margin-right: 33px;
+    margin-left: 190px;
+  }
+
+  .u-section-1 .u-text-7 {
+    width: auto;
+    margin-left: 190px;
+  }
+
+  .u-section-1 .u-text-8 {
+    width: auto;
+    margin-left: 190px;
+  }
+
+  .u-section-1 .u-text-9 {
+    margin-right: 33px;
+    margin-left: 190px;
+  }
+
+  .u-section-1 .u-text-10 {
+    width: auto;
+    margin-left: 190px;
+  }
+
+  .u-section-1 .u-text-11 {
+    width: auto;
+    margin-left: 190px;
+  }
+
+  .u-section-1 .u-text-12 {
+    margin-right: 33px;
+    margin-left: 190px;
+  }
+}
+
+
+button {
+  margin: 20px auto 0 205px;
+}
+.btn {
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow:none;
+}
+@media only screen and (max-width: 770px) {
+  .btn1 {
+  bottom: -50px;
+  bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .btn1{
+    padding: 3px 10px;
+  }
+}
+
+.btn1 {
+  border: 2px solid #000;
+}
+.btn1:hover {
+  background: #000;
+  color: #fff;
+}
+.btn1:active {
+  top: 2px;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.u-text-4{
+  font-size: 16pt;
+  font-weight: 600;
+}
+
+.fa-whatsapp{
+  color: white;
+  font-size: 38px;
+}
+
+.fa-whatsapp:hover{
+  color: #25D366;
+  transition: all .1s linear;
+  cursor: pointer;
+}
+
+.fa-facebook{
+  color: white;
+  font-size: 38px;
+}
+
+.fa-facebook:hover{
+  color: #3B5998;
+  transition: all .1s linear;
+  cursor: pointer;
+}
+
+.fa-linkedin{
+  color: white;
+  font-size: 38px;
+}
+
+.fa-linkedin:hover{
+  color: #0077b5;
+  transition: all .1s linear;
+  cursor: pointer;
+}
+#navbar-brand{
+  justify-content: center;
+}

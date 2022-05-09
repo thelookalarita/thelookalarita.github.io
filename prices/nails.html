@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../main.css">
+  <link rel="stylesheet" href="../nicepage.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -26,21 +26,26 @@
 </head>
 <body>
   <title>Nails</title>
-  <section class="navigation">
-    <div id="maintitle"><a href="../index.html" id="maintitlelink">The Look, À La Rita</a></div>
-    <div class="dropdown">
-          <a href="javascript:void(0)" id="dropbtn">Prices<i class="arrow down"></i></a>
-          <div class="dropdown-content">
-              <a href="nails.html">Nails</a>
-              <a href="lamination.html">Lamination</a>
-              <a href="facial.html">Facial</a>
-              <a href="tattoo.html">Tattoo</a>
-              <a href="makeup.html">Makeup</a>
-              <a href="wax.html">Wax</a>
-          </div>
-        </div>
-      <div id="aboutus"><a href="../about.html" id="aboutuslink">About us</a></div>
-</section>
+  <nav class="navbar navbar-inverse"style="position: sticky; top: 0; z-index: 11;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="../index.html"><p>The Look, à la Rita</p></a></div>  
+        <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Prices<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="nails.html">Nails</a></li>
+            <li><a href="lamination.html">Lamination</a></li>
+            <li><a href="facial.html">Facial</a></li>
+            <li><a href="tattoo.html">Tattoo</a></li>
+            <li><a href="makeup.html">Makeup</a></li>
+            <li><a href="wax.html">Wax</a></li>
+          </ul>
+        </li>
+        <li><a href="../templates/comingsoon.html">About us</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <div class="background">
     <div class="container">
@@ -159,27 +164,30 @@
     </div>
   </div>
   
-  <section class="bottom-bar">
-    <p id="bar-text">Contact Rita through:</p>
-  <p>
-    <a href="https://www.instagram.com/thelook_byrita" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-  </p>
-  <p>
-    <span></span>
-    <a href="https://wa.me/+961355573" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-  </p>
-  <p>
-    <span></span>
-    <a href="https://www.facebook.com/thelookalarita" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  </p>
-  <p>
-    <span></span>
-    <a href="https://www.linkedin.com/company/the-look-%C3%A0-la-rita" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-  </p>
-  <p>
-    <span></span>
-    <a href="https://www.google.com/maps/dir/34.0809582,35.6642147/The+LOOK,+à+la+Rita,+Zalqa,+1202/@33.9893274,35.551687,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x151f3d53df927289:0xd41169c8c74b3517!2m2!1d35.5792395!2d33.8977827" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
-  </p>
-</section>
+  <section class="u-backlink u-clearfix u-grey-80">
+    <a class="bandbottom">
+      <p>Contact Rita through:</p>
+    </a>
+    <p class="u-text">
+      <span></span>
+      <a href="https://www.instagram.com/thelook_byrita" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </p>
+    <p class="u-text">
+      <span></span>
+      <a href="https://wa.me/+961355573" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+    </p>
+    <p class="u-text">
+      <span></span>
+      <a href="https://www.facebook.com/thelookalarita" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    </p>
+    <p class="u-text">
+      <span></span>
+      <a href="https://www.linkedin.com/company/the-look-%C3%A0-la-rita" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </p>
+    <p class="u-text">
+      <span></span>
+      <a href="https://www.linkedin.com/company/the-look-%C3%A0-la-rita" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+    </p>
+  </section>
 </body>
 </html>
