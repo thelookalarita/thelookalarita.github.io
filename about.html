@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="pricelist.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-223192875-1">
@@ -26,27 +26,21 @@
 </head>
 <body>
   <title>About us</title>
-  <nav class="navbar navbar-inverse"style="position: sticky; top: 0; z-index: 11;">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html"><span>The Look, à la Rita</span></a></div>  
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Prices<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="Prices/nails.html">Nails</a></li>
-            <li><a href="Prices/lamination.html">Lamination</a></li>
-            <li><a href="Prices/facial.html">Facial</a></li>
-            <li><a href="Prices/tattoo.html">Tattoo</a></li>
-            <li><a href="Prices/makeup.html">Makeup</a></li>
-            <li><a href="Prices/wax.html">Wax</a></li>
-          <!--<li><a href="#"></a></li>-->
-          </ul>
-        </li>
-        <li><a href="#">About us</a></li>
-      </ul>
-    </div>
-  </nav>
+  <section class="navigation">
+    <div id="maintitle"><a href="index.html" id="maintitlelink">The Look, À La Rita</a></div>
+    <div class="dropdown">
+          <a href="javascript:void(0)" id="dropbtn">Prices<i class="arrow down"></i></a>
+          <div class="dropdown-content">
+              <a href="prices/nails.html">Nails</a>
+              <a href="prices/lamination.html">Lamination</a>
+              <a href="prices/facial.html">Facial</a>
+              <a href="prices/tattoo.html">Tattoo</a>
+              <a href="prices/makeup.html">Makeup</a>
+              <a href="prices/wax.html">Wax</a>
+          </div>
+        </div>
+      <div id="aboutus"><a href="about.html" id="aboutuslink">About us</a></div>
+</section>
 
   <!-- Our team Section -->
 <section id="team" class="team content-section">
@@ -62,7 +56,7 @@
           <div class="col-md-4">
             <div class="team-member">
               <figure>
-                <img src="../official/other images/ritamrattabe.jpg" alt="" class="img">
+                <img src="other-images/ritamrattabe.jpg" alt="" class="img">
                 <figcaption>
                   <p class="descrip">The owner, and the face of the organization. Rita has accumulated countless certificates, while managing the business ever since the year 2000!</p>
                   <ul>
@@ -81,7 +75,7 @@
           <div class="col-md-4">
             <div class="team-member">
               <figure>
-                <img src="../official/other images/markmrattab.jpg" alt="" class="img">
+                <img src="other-images/markmrattab.jpg" alt="" class="img">
                 <figcaption>
                   <p class="descrip">Marc is in charge of digital content and website development. He has no say in the prices on the website (but you can check our social media for discounts!)</p>
                   <ul>
@@ -102,7 +96,7 @@
           <div class="col-md-4">
             <div class="team-member">
               <figure>
-                <img src="../official/other images/zeinamrattabe.jpeg" alt="" class="img">
+                <img src="other-images/zeinamrattabe.jpeg" alt="" class="img">
                 <figcaption>
                   <p class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.</p>
                   <ul>
@@ -120,7 +114,7 @@
           <div class="col-md-4">
             <div class="team-member">
               <figure>
-                <img src="../official/other images/mariammrattabe.jpeg" alt="" class="img">
+                <img src="other-images/mariammrattabe.jpeg" alt="" class="img">
                 <figcaption>
                   <p class="descrip"></p>
                   <ul>
@@ -137,7 +131,7 @@
           <div class="col-md-4">
             <div class="team-member">
               <figure>
-                <img src="../official/other images/haninemrattabe.jpg" alt="" class="img">
+                <img src="other-images/haninemrattabe.jpg" alt="" class="img">
                 <figcaption>
                   <p class="descrip"></p>
                   <ul>
@@ -156,5 +150,28 @@
     </div><!-- /.row -->
   </div><!-- /.container -->
 </section><!-- /.our-team -->
+
+<section class="bottom-bar">
+  <p id="bar-text">Contact Rita through:</p>
+<p>
+  <a href="https://www.instagram.com/thelook_byrita" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+</p>
+<p>
+  <span></span>
+  <a href="https://wa.me/+961355573" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+</p>
+<p>
+  <span></span>
+  <a href="https://www.facebook.com/thelookalarita" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+</p>
+<p>
+  <span></span>
+  <a href="https://www.linkedin.com/company/the-look-%C3%A0-la-rita" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+</p>
+<p>
+  <span></span>
+  <a href="https://www.google.com/maps/dir/34.0809582,35.6642147/The+LOOK,+à+la+Rita,+Zalqa,+1202/@33.9893274,35.551687,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x151f3d53df927289:0xd41169c8c74b3517!2m2!1d35.5792395!2d33.8977827" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+</p>
+</section>
 </body>
 </html>
