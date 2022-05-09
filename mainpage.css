@@ -77,21 +77,14 @@
   grid-row-end: 6;
   padding-top: 70px;
 }
-@media screen and (min-width: 768px) {
-  .griditem-2 {
-  position: sticky;
-  top: 10%;
-}
-}
 
 @media screen and (max-width: 768px) {
   .container {
     margin-top: 90px;
     display: grid;
+    grid-template-columns: 600px;
     grid-template-rows: 450px 350px 350px 350px 350px 350px;
-    grid-auto-flow: row;
     z-index: 1;
-    margin-right: 20px;
   }
   .service {
     display: grid;
@@ -173,8 +166,14 @@
     grid-row-start: 7;
     grid-row-end: 7;
   }
-}
 
+  .announcement{
+    text-align: center;
+  }
+}
+.imgtext{
+  font-size: 12pt;
+}
 .btn1{
 	padding: 1.5em 3.1em;
 	border: none;
@@ -207,7 +206,7 @@
 	padding: 1.5em 3.1em;
 	border: none;
 	border-radius: 7px;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	font-weight: 700;
 	letter-spacing: 1.3px;
 	color: black;
