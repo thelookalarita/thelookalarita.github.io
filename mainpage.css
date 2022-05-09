@@ -131,6 +131,8 @@
     letter-spacing: -2px;
     white-space: wrap;
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
     transform: translateX(100px);
   }
 
@@ -184,6 +186,9 @@
   .btn1{
     margin-top: 10px;
     transform: translateX(280px);
+  }
+  .service{
+    width: 110%;
   }
 }
 .imgtext{
@@ -262,8 +267,8 @@ border-radius: 5px;
 
 .mainimg {
 object-fit: cover;
-width: 178px;
-height: 195px;
+width: 200px;
+height: 200px;
 padding-left: 30px;
 filter: saturate(150%) contrast(120%) hue-rotate(10deg)
     drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
