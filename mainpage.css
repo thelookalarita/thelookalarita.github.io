@@ -82,7 +82,7 @@
   grid-row-start: 1;
   grid-row-end: 1;
   position: sticky;
-  top: 0;
+  top: 10%;
 }
 #griditem-2{
     grid-column-start: 1;
