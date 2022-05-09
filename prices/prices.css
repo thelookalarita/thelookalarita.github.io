@@ -11,10 +11,10 @@ html {
   padding: 0 25px 25px;
   position: relative;
   width: 100%;
-  background: #fca9a96a;
-  background: -moz-linear-gradient(top, #fca9a96a);
-  background: -webkit-linear-gradient(top, #fca9a96a);
-  background: linear-gradient(to bottom, #fca9a96a);
+  background: #ffe6ff;
+  background: -moz-linear-gradient(top, #ffe6ff);
+  background: -webkit-linear-gradient(top, #ffe6ff);
+  background: linear-gradient(to bottom, #ffe6ff);
 }
 
 @media (min-width: 900px) {
@@ -94,7 +94,7 @@ html {
 }
 
 .pricing-features {
-  color: #fca9a9;
+  color: hsl(308, 91%, 43%);
   font-weight: 600;
   letter-spacing: 1px;
   padding-left: 10px;
