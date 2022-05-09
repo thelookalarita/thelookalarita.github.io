@@ -11,10 +11,10 @@ html {
   padding: 0 25px 25px;
   position: relative;
   width: 100%;
-  background: #ffe6ff;
-  background: -moz-linear-gradient(top, #ffe6ff);
-  background: -webkit-linear-gradient(top, #ffe6ff);
-  background: linear-gradient(to bottom, #ffe6ff);
+  background: #fca9a9a6;
+  background: -moz-linear-gradient(top, #fca9a9a6);
+  background: -webkit-linear-gradient(top, #fca9a9a6);
+  background: linear-gradient(to bottom, #fca9a9a6);
 }
 
 @media (min-width: 900px) {
@@ -94,21 +94,21 @@ html {
 }
 
 .pricing-features {
-  color: hsl(308, 91%, 43%);
+  color: #fca9a9;
   font-weight: 600;
   letter-spacing: 1px;
   padding-left: 10px;
 }
 
 .pricing-features-item {
-  border-top: 1px solid hsl(310, 73%, 82%);
+  border-top: 1px solid #fca9a9a6;
   font-size: 12px;
   line-height: 1.5;
   padding: 15px 0;
 }
 
 .pricing-features-item:last-child {
-  border-bottom: 1.5px solid hsl(310, 73%, 82%);
+  border-bottom: 1.5px solid #fca9a9a6;
 }
 
 .pricing-price {
