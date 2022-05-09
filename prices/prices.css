@@ -11,10 +11,17 @@ html {
   padding: 0 25px 25px;
   position: relative;
   width: 100%;
+<<<<<<< HEAD
   background: #fca9a9a6;
   background: -moz-linear-gradient(top, #fca9a9a6);
   background: -webkit-linear-gradient(top, #fca9a9a6);
   background: linear-gradient(to bottom, #fca9a9a6);
+=======
+  background: #fca9a96a;
+  background: -moz-linear-gradient(top, #fca9a96a);
+  background: -webkit-linear-gradient(top, #fca9a96a);
+  background: linear-gradient(to bottom, #fca9a96a);
+>>>>>>> parent of 2f6170b (Merge branch 'main' of https://github.com/thelookalarita/thelookalarita.github.io)
 }
 
 @media (min-width: 900px) {
