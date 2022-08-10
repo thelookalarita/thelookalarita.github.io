@@ -1,1 +1,0 @@
-history.replaceState({}, null, "/index.html");
