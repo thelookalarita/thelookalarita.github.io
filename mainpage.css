@@ -107,7 +107,7 @@
       width: 178px;
       height: 195px;
       transform: translateX(-20px);
-      filter: saturate(150%) contrast(120%) hue-rotate(10deg)
+      filter: hue-rotate(10deg)
           drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
       }
       
@@ -270,7 +270,7 @@ object-fit: cover;
 width: 200px;
 height: 200px;
 padding-left: 30px;
-filter: saturate(150%) contrast(120%) hue-rotate(10deg)
+filter: hue-rotate(10deg)
     drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
 }
 
