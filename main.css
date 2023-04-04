@@ -132,7 +132,7 @@ color: rgb(171, 171, 171);
 
 .fa-whatsapp{
   color: white;
-  font-size: 38px;
+  size: 50px;
 }
 
 .fa-whatsapp:hover{
@@ -143,7 +143,7 @@ color: rgb(171, 171, 171);
 
 .fa-facebook{
   color: white;
-  font-size: 38px;
+  size: 50px;
 }
 
 .fa-facebook:hover{
@@ -154,7 +154,7 @@ color: rgb(171, 171, 171);
 
 .fa-linkedin{
   color: white;
-  font-size: 38px;
+  size: 50px;
 }
 
 .fa-linkedin:hover{
@@ -165,7 +165,7 @@ color: rgb(171, 171, 171);
 
 .fa-map-marker{
   color: white;
-  font-size: 38px;
+  size: 50px;
 }
 
 .fa-map-marker:hover{

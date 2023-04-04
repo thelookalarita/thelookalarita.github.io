@@ -61,6 +61,7 @@ a:hover{
 .team-member {
   margin: 15px 0;
   padding: 0;
+  transition-duration: 0.3s;
 }
 
 .team-member figure {
@@ -121,7 +122,17 @@ object-fit: cover;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-
+}
+.team-member:hover:before {
+  content: "";
+    position: absolute;
+    top: -50px; /* adjust this value to move the :before element up or down */
+    left: -50px; /* adjust this value to move the :before element left or right */
+    width: calc(100% + 100px); /* adjust the width and height of the :before element to cover the image completely */
+    height: calc(100% + 100px);
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
 }
 .team-member figure:hover figcaption {
   visibility: visible;
